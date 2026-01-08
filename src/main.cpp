@@ -4,6 +4,19 @@
  * Date: Data de Criação
  */
 
+/*
+Este exemplo implementa um sistema de controle de LED com taxa de atualização variável.
+Comportamento: 
+  O sistema opera em dois estados distintos baseados na interação com o botão:
+
+  1.Estado Padrão (Botão Solto):
+    O LED pisca em alta velocidade (intervallo de 100ms).
+    Indica que o sistema está ocioso ou em modo de espera.
+ 
+  2.Estado Ativo (Botão Pressionado):
+    Ao manter o botão pressionado (nível lógico `LOW`), o LED muda para baixa velocidade (intervalo de 500ms).
+*/
+
 #include <Arduino.h>
 
 // Definições de Pinos e Constantes Globais
