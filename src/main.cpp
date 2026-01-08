@@ -6,6 +6,7 @@
 
 /*
 Este exemplo implementa um sistema de controle de LED com taxa de atualização variável.
+
 Comportamento: 
   O sistema opera em dois estados distintos baseados na interação com o botão:
 
@@ -14,12 +15,13 @@ Comportamento:
     Indica que o sistema está ocioso ou em modo de espera.
  
   2.Estado Ativo (Botão Pressionado):
-    Ao manter o botão pressionado (nível lógico `LOW`), o LED muda para baixa velocidade (intervalo de 500ms).
+    Ao manter o botão pressionado (nível lógico `LOW`), o LED muda para baixa 
+    velocidade (intervalo de 500ms).
 */
 
 #include <Arduino.h>
 
-// Definições de Pinos e Constantes Globais
+// --- Definições de Pinos e Constantes Globais ---
 #define BAUD_RATE 115200
 #define LED_PIN LED_BUILTIN
 #define BTN_PIN 2

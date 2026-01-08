@@ -45,7 +45,7 @@ Se você estiver no GitHub, clique no botão verde "Use this template" para cria
 ### 2. Configurações Básicas (platformio.ini)
 Este projeto já vem configurado para o Arduino Uno (ATmega328P).
 
-Monitor Serial: Configurado para 9600 bps.
+Monitor Serial: Configurado para 115200 bps.
 
 Bibliotecas: Adicione bibliotecas externas (ex: sensores) na seção lib_deps do arquivo platformio.ini.
 
