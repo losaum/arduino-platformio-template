@@ -14,6 +14,10 @@ nome-do-projeto/
 │   ├── 📂 diagrams/       #    - Esquemas elétricos, fritzing ou fotos
 │   └── 📄 PINOUT.md       #    - Tabela de referência das conexões (fios)
 │
+├── 📂 test/               # 🧪 TESTES UNITÁRIOS (Controle de Qualidade)
+│   └── 📄 README          #    - Scripts para validar a lógica do código automaticamente
+│                          #      sem precisar testar manualmente o hardware toda vez.
+│
 ├── 📂 include/            # 🧩 CABEÇALHOS GLOBAIS (Headers .h)
 │   └── 📄 README          #    - Coloque aqui arquivos .h que precisam ser vistos
 │                          #      por todo o projeto (ex: constantes globais, structs)

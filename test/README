@@ -9,3 +9,9 @@ in the development cycle.
 
 More information about PlatformIO Unit Testing:
 - https://docs.platformio.org/en/latest/advanced/unit-testing/index.html
+
+
+### 🧪 Sobre a pasta `test/`
+Esta pasta é destinada a **Testes Unitários** (Unit Testing).
+Diferente do código em `src/`, os arquivos aqui não são gravados no uso normal do dia a dia.
+Eles servem para rodar rotinas de verificação automática (usando o framework **Unity**) para garantir que suas funções e cálculos matemáticos estão retornando os valores esperados, antes mesmo de você conectar sensores reais.
